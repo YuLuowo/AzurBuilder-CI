@@ -1,0 +1,72 @@
+name: Update AzurLane (TW) JSON data and push to Database
+
+on:
+  schedule:
+    - cron: '0 12 * * 4'
+  workflow_dispatch:
+
+jobs:
+  update-json-and-database:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout this repo
+        uses: actions/checkout@v3
+
+      - name: Download JSON files
+        run: |
+          mkdir -p data/raw
+          
+          echo "Downloading JSON data ..."
+          curl -sL https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/TW/GameCfg/buff.json -o data/raw/buff.json
+          curl -sL https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/TW/ShareCfg/constellation_challenge_month.json -o data/raw/constellation_challenge_month.json
+          curl -sL https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/TW/sharecfgdata/equip_data_statistics.json -o data/raw/equip_data_statistics.json
+          curl -sL https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/TW/sharecfgdata/equip_data_template.json -o data/raw/equip_data_template.json
+          curl -sL https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/TW/ShareCfg/expedition_constellation_challenge_template.json -o data/raw/expedition_constellation_challenge_template.json
+          curl -sL https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/TW/sharecfgdata/item_data_statistics.json -o data/raw/item_data_statistics.json
+          curl -sL https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/TW/ShareCfg/name_code.json -o data/raw/name_code.json
+          curl -sL https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/TW/ShareCfg/ship_data_group.json -o data/raw/ship_data_group.json
+          curl -sL https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/TW/sharecfgdata/ship_data_statistics.json -o data/raw/ship_data_statistics.json
+          curl -sL https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/TW/ShareCfg/ship_data_strengthen.json -o data/raw/ship_data_strengthen.json
+          curl -sL https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/TW/sharecfgdata/ship_data_template.json -o data/raw/ship_data_template.json
+          curl -sL https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/TW/ShareCfg/ship_data_trans.json -o data/raw/ship_data_trans.json
+          curl -sL https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/TW/ShareCfg/ship_skin_template.json -o data/raw/ship_skin_template.json
+          curl -sL https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/TW/ShareCfg/skill_data_display.json -o data/raw/skill_data_display.json
+          curl -sL https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/TW/ShareCfg/skill_data_template.json -o data/raw/skill_data_template.json
+          curl -sL https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/TW/ShareCfg/skill_world_display.json -o data/raw/skill_world_display.json
+          curl -sL https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/TW/ShareCfg/transform_data_template.json -o data/raw/transform_data_template.json
+
+      - name: Set Git config
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+      - name: Commit and push if changed
+        run: |
+          if git status --porcelain | grep 'data/'; then
+            git add data/
+            git commit -m "Auto update AzurLane (TW) JSON files"
+            git push
+          else
+            echo "No JSON changes detected."
+          fi
+
+      - name: Setup pnpm
+        run: npm install -g pnpm
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Generate Prisma Client
+        run: npx prisma generate
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+
+      - name: Run pipeline
+        run: pnpm pipeline
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
