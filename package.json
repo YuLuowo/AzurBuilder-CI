@@ -6,6 +6,10 @@
   "type": "module",
   "scripts": {
     "ship": "tsx scripts/ship.ts",
+    "skill": "tsx scripts/skill.ts",
+    "transform": "tsx scripts/transform.ts",
+    "equipment": "tsx scripts/equipment.ts",
+    "item": "tsx scripts/item.ts",
     "pipeline": "tsx scripts/main.ts"
   },
   "keywords": [],

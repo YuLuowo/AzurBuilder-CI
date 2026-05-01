@@ -1,41 +1,60 @@
 generator client {
-  provider = "prisma-client"
-  output   = "../generated/prisma"
+	provider = "prisma-client"
+	output   = "../generated/prisma"
 }
 
 datasource db {
-  provider = "postgresql"
+	provider = "postgresql"
 }
 
 model AzurLaneData {
-  key       String   @id
-  data      Json
-  createdAt DateTime @default(now())
-  updatedAt DateTime
+	key       String   @id
+	data      Json
+	createdAt DateTime @default(now())
+	updatedAt DateTime
 }
 
 model Ship {
-  key         String   @id
-  name        String
-  painting    String
-  nationality Int
-  rarity      Int
-  type        Int
-  tag_list    String[]
-  group_type  Int
-  trans       Boolean
-  ship_equip  Json
+	key         String   @id
+	name        String
+	painting    String
+	nationality Int
+	rarity      Int
+	type        Int
+	tag_list    String[]
+	group_type  Int
+	trans       Boolean
+	ship_equip  Json
 }
 
 model ShipSkill {
-  key          String @id
-  name         String
-  group_type   Int
-  skills       Json
-  trans_skills Json
+	key          String @id
+	shipName     String
+	group_type   Int
+	skills       Json
+	trans_skills Json
 }
 
 model ShipTransform {
-  key        String @id
-  transforms Json
+	key        String @id
+	shipName   String
+	transforms Json
+}
+
+model Equipment {
+	key         String @id
+	name        String
+	type        Int
+	rarity      Int
+	nationality Int
+	icon        String
+}
+
+model Item {
+	key    String @id
+	id     Int
+	name   String
+	icon   String
+	rarity Int
+	type   Int
 }
