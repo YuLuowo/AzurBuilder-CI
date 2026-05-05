@@ -674,7 +674,7 @@
   {
     "key": "item_1006",
     "id": 1006,
-    "name": "{namecode:79}的鈴鐺",
+    "name": "山城的鈴鐺",
     "icon": "props/lingdang",
     "rarity": 4,
     "type": 1
@@ -722,7 +722,7 @@
   {
     "key": "item_1013",
     "id": 1013,
-    "name": "{namecode:79}的鈴鐺",
+    "name": "山城的鈴鐺",
     "icon": "props/lingdang",
     "rarity": 4,
     "type": 1
@@ -2082,7 +2082,7 @@
   {
     "key": "item_11054",
     "id": 11054,
-    "name": "{namecode:10006}T0設計圖",
+    "name": "F6F地獄貓（HVAR搭載型）T0設計圖",
     "icon": "Equips/17440",
     "rarity": 4,
     "type": 9
@@ -3522,7 +3522,7 @@
   {
     "key": "item_21001",
     "id": 21001,
-    "name": "結晶：{namecode:191}",
+    "name": "結晶：飛龍·META",
     "icon": "Props/21001",
     "rarity": 4,
     "type": 4
@@ -3546,7 +3546,7 @@
   {
     "key": "item_21004",
     "id": 21004,
-    "name": "結晶：{namecode:205}",
+    "name": "結晶：蒼龍·META",
     "icon": "Props/21004",
     "rarity": 4,
     "type": 4
@@ -3554,7 +3554,7 @@
   {
     "key": "item_21005",
     "id": 21005,
-    "name": "結晶：{namecode:210}",
+    "name": "結晶：扶桑·META",
     "icon": "Props/21005",
     "rarity": 4,
     "type": 4
@@ -3562,7 +3562,7 @@
   {
     "key": "item_21006",
     "id": 21006,
-    "name": "結晶：{namecode:220}",
+    "name": "結晶：飛鷹·META",
     "icon": "Props/21006",
     "rarity": 4,
     "type": 4
@@ -3578,7 +3578,7 @@
   {
     "key": "item_21008",
     "id": 21008,
-    "name": "結晶：{namecode:221}",
+    "name": "結晶：隼鷹·META",
     "icon": "Props/21008",
     "rarity": 4,
     "type": 4
@@ -3594,7 +3594,7 @@
   {
     "key": "item_21010",
     "id": 21010,
-    "name": "結晶：{namecode:223}",
+    "name": "結晶：山城·META",
     "icon": "Props/21010",
     "rarity": 4,
     "type": 4
@@ -3682,7 +3682,7 @@
   {
     "key": "item_21021",
     "id": 21021,
-    "name": "結晶：{namecode:515}",
+    "name": "結晶：U-556·META",
     "icon": "Props/21021",
     "rarity": 4,
     "type": 4
@@ -3706,7 +3706,7 @@
   {
     "key": "item_21024",
     "id": 21024,
-    "name": "結晶：{namecode:522}",
+    "name": "結晶：旗風·META",
     "icon": "Props/21024",
     "rarity": 4,
     "type": 4
@@ -3714,7 +3714,7 @@
   {
     "key": "item_21025",
     "id": 21025,
-    "name": "結晶：{namecode:293}",
+    "name": "結晶：神通·META",
     "icon": "Props/21025",
     "rarity": 4,
     "type": 4
@@ -3802,7 +3802,7 @@
   {
     "key": "item_21036",
     "id": 21036,
-    "name": "結晶：{namecode:229}",
+    "name": "結晶：霞·META",
     "icon": "Props/21036",
     "rarity": 4,
     "type": 4
@@ -3810,7 +3810,7 @@
   {
     "key": "item_21037",
     "id": 21037,
-    "name": "結晶：{namecode:230}",
+    "name": "結晶：長門·META",
     "icon": "Props/21037",
     "rarity": 4,
     "type": 4
@@ -3818,7 +3818,7 @@
   {
     "key": "item_21038",
     "id": 21038,
-    "name": "結晶：{namecode:232}",
+    "name": "結晶：比叡·META",
     "icon": "Props/21038",
     "rarity": 4,
     "type": 4
@@ -3826,7 +3826,7 @@
   {
     "key": "item_21039",
     "id": 21039,
-    "name": "結晶：{namecode:237}",
+    "name": "結晶：鳳翔·META",
     "icon": "Props/21039",
     "rarity": 4,
     "type": 4
@@ -3842,7 +3842,7 @@
   {
     "key": "item_21041",
     "id": 21041,
-    "name": "結晶：{namecode:238}",
+    "name": "結晶：大鳳·META",
     "icon": "Props/21041",
     "rarity": 4,
     "type": 4
@@ -3850,7 +3850,7 @@
   {
     "key": "item_21042",
     "id": 21042,
-    "name": "結晶：{namecode:543}",
+    "name": "結晶：希佩爾將軍·META",
     "icon": "Props/21042",
     "rarity": 4,
     "type": 4
@@ -3906,7 +3906,7 @@
   {
     "key": "item_21049",
     "id": 21049,
-    "name": "結晶：{namecode:300}",
+    "name": "結晶：江風·META",
     "icon": "Props/21049",
     "rarity": 4,
     "type": 4
@@ -3930,7 +3930,7 @@
   {
     "key": "item_21053",
     "id": 21053,
-    "name": "結晶：{namecode:197}·META",
+    "name": "結晶：波夕·META",
     "icon": "Props/21053",
     "rarity": 4,
     "type": 4
@@ -3986,7 +3986,7 @@
   {
     "key": "item_21901",
     "id": 21901,
-    "name": "同步值：{namecode:191}",
+    "name": "同步值：飛龍·META",
     "icon": "Props/21901",
     "rarity": 4,
     "type": 4
@@ -4010,7 +4010,7 @@
   {
     "key": "item_21904",
     "id": 21904,
-    "name": "同步值：{namecode:205}",
+    "name": "同步值：蒼龍·META",
     "icon": "Props/21904",
     "rarity": 4,
     "type": 4
@@ -4074,7 +4074,7 @@
   {
     "key": "item_21912",
     "id": 21912,
-    "name": "同步值：{namecode:293}",
+    "name": "同步值：神通·META",
     "icon": "Props/21912",
     "rarity": 4,
     "type": 4
@@ -4106,7 +4106,7 @@
   {
     "key": "item_21916",
     "id": 21916,
-    "name": "同步值：{namecode:230}",
+    "name": "同步值：長門·META",
     "icon": "Props/21916",
     "rarity": 4,
     "type": 4
@@ -4114,7 +4114,7 @@
   {
     "key": "item_21917",
     "id": 21917,
-    "name": "同步值：{namecode:238}",
+    "name": "同步值：大鳳·META",
     "icon": "Props/21917",
     "rarity": 4,
     "type": 4
@@ -4130,7 +4130,7 @@
   {
     "key": "item_21919",
     "id": 21919,
-    "name": "同步值：{namecode:300}",
+    "name": "同步值：江風·META",
     "icon": "Props/21919",
     "rarity": 4,
     "type": 4
@@ -4434,7 +4434,7 @@
   {
     "key": "item_30301",
     "id": 30301,
-    "name": "{namecode:98}的聖誕禮物",
+    "name": "明石的聖誕禮物",
     "icon": "Props/chrisgift",
     "rarity": 3,
     "type": 17
@@ -5052,6 +5052,14 @@
     "id": 30382,
     "name": "外觀裝備箱(夜都漫遊者)",
     "icon": "Props/appearanceboxnihongtegong",
+    "rarity": 4,
+    "type": 11
+  },
+  {
+    "key": "item_30383",
+    "id": 30383,
+    "name": "外觀裝備箱(閃耀海濱)",
+    "icon": "Props/appearanceboxshanyaohaibin",
     "rarity": 4,
     "type": 11
   },
@@ -5828,6 +5836,14 @@
     "id": 30566,
     "name": "定向外觀裝備箱(夜都漫遊者)",
     "icon": "Props/appearanceboxnihongtegongzixuan",
+    "rarity": 4,
+    "type": 13
+  },
+  {
+    "key": "item_30567",
+    "id": 30567,
+    "name": "定向外觀裝備箱(閃耀海濱)",
+    "icon": "Props/appearanceboxshanyaohaibinzixuan",
     "rarity": 4,
     "type": 13
   },
@@ -12498,7 +12514,7 @@
   {
     "key": "item_42032",
     "id": 42032,
-    "name": "藍圖：{namecode:204}",
+    "name": "藍圖：白龍",
     "icon": "Props/42032",
     "rarity": 5,
     "type": 12
@@ -12554,7 +12570,7 @@
   {
     "key": "item_42042",
     "id": 42042,
-    "name": "藍圖：{namecode:484}",
+    "name": "藍圖：魯普雷希特親王",
     "icon": "Props/42042",
     "rarity": 4,
     "type": 12
@@ -12562,7 +12578,7 @@
   {
     "key": "item_42043",
     "id": 42043,
-    "name": "藍圖：{namecode:224}",
+    "name": "藍圖：哈爾濱",
     "icon": "Props/42043",
     "rarity": 4,
     "type": 12
@@ -12610,7 +12626,7 @@
   {
     "key": "item_42052",
     "id": 42052,
-    "name": "藍圖：{namecode:292}",
+    "name": "藍圖：四萬十",
     "icon": "Props/42052",
     "rarity": 4,
     "type": 12
@@ -12618,7 +12634,7 @@
   {
     "key": "item_42053",
     "id": 42053,
-    "name": "藍圖：{namecode:518}",
+    "name": "藍圖：菲利克斯·舒爾茨",
     "icon": "Props/42053",
     "rarity": 4,
     "type": 12
@@ -12626,7 +12642,7 @@
   {
     "key": "item_42054",
     "id": 42054,
-    "name": "藍圖：{namecode:521}",
+    "name": "藍圖：興登堡",
     "icon": "Props/42054",
     "rarity": 5,
     "type": 12
@@ -12666,7 +12682,7 @@
   {
     "key": "item_42062",
     "id": 42062,
-    "name": "藍圖：{namecode:299}",
+    "name": "藍圖：大山",
     "icon": "Props/42062",
     "rarity": 4,
     "type": 12
@@ -12722,7 +12738,7 @@
   {
     "key": "item_42072",
     "id": 42072,
-    "name": "藍圖：{namecode:550}",
+    "name": "藍圖：梅克倫堡",
     "icon": "Props/42072",
     "rarity": 5,
     "type": 12
@@ -12938,7 +12954,7 @@
   {
     "key": "item_59488",
     "id": 59488,
-    "name": "{namecode:182}的信物",
+    "name": "信濃的信物",
     "icon": "Props/xinwu_xinnong",
     "rarity": 3,
     "type": 1
@@ -12946,7 +12962,7 @@
   {
     "key": "item_59489",
     "id": 59489,
-    "name": "{namecode:206}的信物",
+    "name": "由良的信物",
     "icon": "Props/xinwu_youliang",
     "rarity": 3,
     "type": 1
@@ -12954,7 +12970,7 @@
   {
     "key": "item_59490",
     "id": 59490,
-    "name": "{namecode:18}的信物",
+    "name": "島風的信物",
     "icon": "Props/xinwu_daofeng",
     "rarity": 3,
     "type": 1
@@ -12970,7 +12986,7 @@
   {
     "key": "item_59550",
     "id": 59550,
-    "name": "換裝自選券（{namecode:199}/{namecode:182}）",
+    "name": "換裝自選券（紐澤西/信濃）",
     "icon": "Props/skin_exchange_ur",
     "rarity": 4,
     "type": 26
@@ -12994,7 +13010,7 @@
   {
     "key": "item_59553",
     "id": 59553,
-    "name": "換裝自選券（{namecode:18}）",
+    "name": "換裝自選券（島風）",
     "icon": "Props/skin_exchange_daofeng",
     "rarity": 4,
     "type": 26
@@ -13002,7 +13018,7 @@
   {
     "key": "item_59554",
     "id": 59554,
-    "name": "換裝自選券（{namecode:463}）",
+    "name": "換裝自選券（烏爾里希·馮·胡騰）",
     "icon": "Props/skin_exchange_huteng",
     "rarity": 4,
     "type": 26
@@ -14314,7 +14330,7 @@
   {
     "key": "item_60276",
     "id": 60276,
-    "name": "{namecode:179}的年賀狀",
+    "name": "龍鳳的年賀狀",
     "icon": "Props/nianhezhuang2024",
     "rarity": 9,
     "type": 1
@@ -14322,7 +14338,7 @@
   {
     "key": "item_60277",
     "id": 60277,
-    "name": "{namecode:437}的年賀狀",
+    "name": "齊柏林伯爵的年賀狀",
     "icon": "Props/nianhezhuang2024",
     "rarity": 9,
     "type": 1
@@ -14346,7 +14362,7 @@
   {
     "key": "item_60280",
     "id": 60280,
-    "name": "{namecode:526}的年賀狀",
+    "name": "札拉的年賀狀",
     "icon": "Props/nianhezhuang2024",
     "rarity": 9,
     "type": 1
@@ -14466,7 +14482,7 @@
   {
     "key": "item_60317",
     "id": 60317,
-    "name": "{namecode:97}的回禮",
+    "name": "大鳳的回禮",
     "icon": "Props/yaoqinghan",
     "rarity": 9,
     "type": 1
@@ -14474,7 +14490,7 @@
   {
     "key": "item_60318",
     "id": 60318,
-    "name": "{namecode:161}的回禮",
+    "name": "天城的回禮",
     "icon": "Props/yaoqinghan",
     "rarity": 9,
     "type": 1
@@ -14506,7 +14522,7 @@
   {
     "key": "item_60322",
     "id": 60322,
-    "name": "{namecode:437}的回禮",
+    "name": "齊柏林伯爵的回禮",
     "icon": "Props/yaoqinghan",
     "rarity": 9,
     "type": 1
@@ -14578,7 +14594,7 @@
   {
     "key": "item_60429",
     "id": 60429,
-    "name": "{namecode:50}的回禮",
+    "name": "能代的回禮",
     "icon": "Props/yaoqinghan",
     "rarity": 9,
     "type": 1
@@ -14586,7 +14602,7 @@
   {
     "key": "item_60430",
     "id": 60430,
-    "name": "{namecode:74}的回禮",
+    "name": "長門的回禮",
     "icon": "Props/yaoqinghan",
     "rarity": 9,
     "type": 1
@@ -14602,7 +14618,7 @@
   {
     "key": "item_60450",
     "id": 60450,
-    "name": "{namecode:203}的年賀狀",
+    "name": "風雲的年賀狀",
     "icon": "Props/nianhezhuang2025-tw",
     "rarity": 9,
     "type": 1
@@ -14618,7 +14634,7 @@
   {
     "key": "item_60452",
     "id": 60452,
-    "name": "{namecode:418}的年賀狀",
+    "name": "U-101的年賀狀",
     "icon": "Props/nianhezhuang2025-tw",
     "rarity": 9,
     "type": 1
@@ -14642,7 +14658,7 @@
   {
     "key": "item_60455",
     "id": 60455,
-    "name": "{namecode:526}的年賀狀",
+    "name": "札拉的年賀狀",
     "icon": "Props/nianhezhuang2025-tw",
     "rarity": 9,
     "type": 1
@@ -14666,7 +14682,7 @@
   {
     "key": "item_60459",
     "id": 60459,
-    "name": "{namecode:97}的賀年卡",
+    "name": "大鳳的賀年卡",
     "icon": "Props/henianka2024",
     "rarity": 9,
     "type": 1
@@ -14746,7 +14762,7 @@
   {
     "key": "item_60493",
     "id": 60493,
-    "name": "{namecode:81}的回禮",
+    "name": "土佐的回禮",
     "icon": "Props/yaoqinghan",
     "rarity": 9,
     "type": 1
@@ -14754,7 +14770,7 @@
   {
     "key": "item_60494",
     "id": 60494,
-    "name": "{namecode:161}的回禮",
+    "name": "天城的回禮",
     "icon": "Props/yaoqinghan",
     "rarity": 9,
     "type": 1
@@ -14786,7 +14802,7 @@
   {
     "key": "item_60498",
     "id": 60498,
-    "name": "{namecode:437}的回禮",
+    "name": "齊柏林伯爵的回禮",
     "icon": "Props/yaoqinghan",
     "rarity": 9,
     "type": 1
@@ -14794,7 +14810,7 @@
   {
     "key": "item_60499",
     "id": 60499,
-    "name": "{namecode:453}的回禮",
+    "name": "海因里希親王的回禮",
     "icon": "Props/yaoqinghan",
     "rarity": 9,
     "type": 1
@@ -14834,7 +14850,7 @@
   {
     "key": "item_60514",
     "id": 60514,
-    "name": "{namecode:470}的回禮",
+    "name": "彼得·史特拉塞的回禮",
     "icon": "Props/yaoqinghan",
     "rarity": 9,
     "type": 1
@@ -14842,7 +14858,7 @@
   {
     "key": "item_60515",
     "id": 60515,
-    "name": "{namecode:50}的回禮",
+    "name": "能代的回禮",
     "icon": "Props/yaoqinghan",
     "rarity": 9,
     "type": 1
@@ -14850,7 +14866,7 @@
   {
     "key": "item_60516",
     "id": 60516,
-    "name": "{namecode:74}的回禮",
+    "name": "長門的回禮",
     "icon": "Props/yaoqinghan",
     "rarity": 9,
     "type": 1
@@ -14882,7 +14898,7 @@
   {
     "key": "item_60520",
     "id": 60520,
-    "name": "{namecode:437}的回禮",
+    "name": "齊柏林伯爵的回禮",
     "icon": "Props/yaoqinghan",
     "rarity": 9,
     "type": 1
@@ -14914,7 +14930,7 @@
   {
     "key": "item_60524",
     "id": 60524,
-    "name": "{namecode:50}的回禮",
+    "name": "能代的回禮",
     "icon": "Props/yaoqinghan",
     "rarity": 9,
     "type": 1
@@ -14922,7 +14938,7 @@
   {
     "key": "item_60525",
     "id": 60525,
-    "name": "{namecode:435}的回禮",
+    "name": "俾斯麥的回禮",
     "icon": "Props/yaoqinghan",
     "rarity": 9,
     "type": 1
@@ -14946,7 +14962,7 @@
   {
     "key": "item_60528",
     "id": 60528,
-    "name": "{namecode:97}的賀年卡",
+    "name": "大鳳的賀年卡",
     "icon": "Props/henianka2025tw",
     "rarity": 9,
     "type": 1
@@ -15010,7 +15026,7 @@
   {
     "key": "item_60536",
     "id": 60536,
-    "name": "{namecode:97}的回禮",
+    "name": "大鳳的回禮",
     "icon": "Props/yaoqinghan",
     "rarity": 9,
     "type": 1
@@ -15034,7 +15050,7 @@
   {
     "key": "item_60539",
     "id": 60539,
-    "name": "{namecode:414}的回禮",
+    "name": "U-81的回禮",
     "icon": "Props/yaoqinghan",
     "rarity": 9,
     "type": 1
@@ -15050,7 +15066,7 @@
   {
     "key": "item_60541",
     "id": 60541,
-    "name": "{namecode:437}的回禮",
+    "name": "齊柏林伯爵的回禮",
     "icon": "Props/yaoqinghan",
     "rarity": 9,
     "type": 1
@@ -15082,7 +15098,7 @@
   {
     "key": "item_60545",
     "id": 60545,
-    "name": "{namecode:182}的回禮",
+    "name": "信濃的回禮",
     "icon": "Props/yaoqinghan",
     "rarity": 9,
     "type": 1
@@ -15090,7 +15106,7 @@
   {
     "key": "item_60546",
     "id": 60546,
-    "name": "{namecode:199}的回禮",
+    "name": "紐澤西的回禮",
     "icon": "Props/yaoqinghan",
     "rarity": 9,
     "type": 1
@@ -15130,7 +15146,7 @@
   {
     "key": "item_60560",
     "id": 60560,
-    "name": "{namecode:470}的回禮",
+    "name": "彼得·史特拉塞的回禮",
     "icon": "Props/yaoqinghan",
     "rarity": 9,
     "type": 1
@@ -15138,7 +15154,7 @@
   {
     "key": "item_60561",
     "id": 60561,
-    "name": "{namecode:50}的回禮",
+    "name": "能代的回禮",
     "icon": "Props/yaoqinghan",
     "rarity": 9,
     "type": 1
@@ -15146,7 +15162,7 @@
   {
     "key": "item_60562",
     "id": 60562,
-    "name": "{namecode:161}的回禮",
+    "name": "天城的回禮",
     "icon": "Props/yaoqinghan",
     "rarity": 9,
     "type": 1
@@ -15178,7 +15194,7 @@
   {
     "key": "item_60566",
     "id": 60566,
-    "name": "{namecode:437}的回禮",
+    "name": "齊柏林伯爵的回禮",
     "icon": "Props/60565",
     "rarity": 9,
     "type": 1
@@ -15218,7 +15234,7 @@
   {
     "key": "item_60571",
     "id": 60571,
-    "name": "{namecode:435}的回禮",
+    "name": "俾斯麥的回禮",
     "icon": "Props/60565",
     "rarity": 9,
     "type": 1
@@ -15242,7 +15258,7 @@
   {
     "key": "item_60574",
     "id": 60574,
-    "name": "{namecode:97}的賀年卡",
+    "name": "大鳳的賀年卡",
     "icon": "Props/henianka2026",
     "rarity": 9,
     "type": 1
@@ -15394,7 +15410,7 @@
   {
     "key": "item_80102",
     "id": 80102,
-    "name": "{namecode:97}的賀年卡",
+    "name": "大鳳的賀年卡",
     "icon": "Props/henianka2025tw",
     "rarity": 9,
     "type": 1
@@ -15642,7 +15658,7 @@
   {
     "key": "item_80135",
     "id": 80135,
-    "name": "{namecode:95}的回禮",
+    "name": "翔鶴的回禮",
     "icon": "Props/yaoqinghan",
     "rarity": 9,
     "type": 1
@@ -15650,7 +15666,7 @@
   {
     "key": "item_80136",
     "id": 80136,
-    "name": "{namecode:96}的回禮",
+    "name": "瑞鶴的回禮",
     "icon": "Props/yaoqinghan",
     "rarity": 9,
     "type": 1

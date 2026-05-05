@@ -2,6 +2,7 @@ import fs from "fs/promises";
 import path from "path";
 import type { Item } from "../types/item.js";
 import { prisma } from "../services/database.js";
+import { resolveNameCode } from "../utils/resolveNameCode.js";
 
 export async function runItemPipeline() {
     console.log("Start Item Pipeline ...");
@@ -22,17 +23,24 @@ async function fetchAndSaveData() {
 
     const statisticData = JSON.parse(statisticJson) as Record<number, Item>;
 
-    const items = Object.values(statisticData)
-        .map(item => {
+    const items = await Promise.all(
+        Object.values(statisticData).map(async item => {
+            let itemName = item.name;
+
+            if (itemName.includes("namecode")) {
+                itemName = await resolveNameCode(item.name);
+            }
+
             return {
                 key: `item_${item.id}`,
                 id: item.id,
-                name: item.name,
+                name: itemName,
                 icon: item.icon,
                 rarity: item.rarity,
                 type: item.type,
-            }
-        });
+            };
+        })
+    );
 
     const outputPath = path.join(
         process.cwd(),
